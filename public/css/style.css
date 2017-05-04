@@ -1,0 +1,21 @@
+.container{
+	margin-bottom: 2px;
+}
+
+.btn-primary{
+	margin: 12px 0;
+}
+li{
+	list-style: none;
+}
+
+.modal{
+	display: block;
+}
+.modal-content{
+	max-height: 600px;
+	overflow-y: auto;
+}
+.modal-img{
+	max-height: 160px;
+}
