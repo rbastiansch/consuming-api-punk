@@ -1,6 +1,6 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import SearchBeer from '../app/components/SearchBeer';
 
 describe('<SearchBeer />', () => {
