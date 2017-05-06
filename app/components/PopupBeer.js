@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 class PopupBeer extends Component{
 	constructor(props){
 		super(props);
@@ -8,7 +7,7 @@ class PopupBeer extends Component{
 	}
 
 	render(){
-		const {parentValue} = this.props;
+		const {parentValue} = this.props;		
 		return(
 				<div className="modal bd-example-modal-lg">
 				  <div className="modal-dialog modal-lg" role="document">
