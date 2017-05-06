@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "BABEL_ENV=dev webpack-dev-server",
+    "start": "BABEL_ENV=dev webpack-dev-server --history-api-fallback",
     "test": "BABEL_ENV=test mocha --compilers js:babel-core/register --require ./tests/config.js ./tests/*.test.js"
   },
   "author": "",
@@ -12,7 +12,8 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-hot-loader": "^3.0.0-beta.6"
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-router": "^2.5.2"
   },
   "devDependencies": {
     "axios": "^0.16.1",
