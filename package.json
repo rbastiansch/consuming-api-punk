@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "BABEL_ENV=dev webpack-dev-server --history-api-fallback",
-    "test": "BABEL_ENV=test mocha --compilers js:babel-core/register --require ./tests/config.js ./tests/*.test.js"
+    "start": "BABEL_ENV=dev webpack-dev-server --env=dev --history-api-fallback",
+    "test": "BABEL_ENV=test mocha --compilers js:babel-core/register --require ./tests/config.js ./tests/*.test.js",
+    "build": "BABEL_ENV=dev webpack --env=prod --progress"
   },
   "author": "",
   "license": "ISC",
