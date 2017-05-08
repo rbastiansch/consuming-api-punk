@@ -11,7 +11,7 @@ class Home extends Component{
 			<div>
 				<div className="card">
 					<div className="card-block">
-						<p>Essa é uma aplicação em React consumindo uma API chamada punk, clicando no botão Buscar na aba Buscar Cerveja, listará as cervejas da API.</p>
+						<p>E ssa é uma aplicação em React consumindo uma API chamada punk, clicando no botão Buscar na aba Buscar Cerveja, listará as cervejas da API.</p>
 					</div>
 				</div>
 			</div>

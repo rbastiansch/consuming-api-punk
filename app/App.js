@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Router, browserHistory, IndexRoute} from 'react-router';
+import { Route, Router, browserHistory, hashHistory, IndexRoute} from 'react-router';
 
 import { AppContainer } from 'react-hot-loader';
 // AppContainer is a necessary wrapper component for HMR
